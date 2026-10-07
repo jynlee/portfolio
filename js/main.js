@@ -117,7 +117,6 @@
 
   function renderStats() {
     $("#statProjects").textContent = D.projects.length;
-    $("#statRepos").textContent = D.stats.repos;
     $("#statAreas").textContent = D.skills.length;
   }
 
@@ -132,8 +131,6 @@
     $$("#langMenu button").forEach(function (b) {
       b.setAttribute("aria-current", b.getAttribute("data-lang") === window.i18n.lang ? "true" : "false");
     });
-    var copy = $("#copyBtn");
-    if (copy) copy.textContent = t("contact.copy");
   }
 
   /* ---------- Lightbox ---------- */
@@ -248,19 +245,19 @@
 
   /* ---------- Contact ---------- */
   function setupContact() {
-    var email = (D.email || "").trim();
-    if (!email) return;
-    var mail = $("#mailBtn"), copy = $("#copyBtn"), icon = $("#mailIcon");
-    mail.href = icon.href = "mailto:" + email;
-    mail.hidden = copy.hidden = icon.hidden = false;
-    var timer;
-    copy.addEventListener("click", function () {
-      function done() {
-        copy.textContent = t("contact.copied");
-        clearTimeout(timer);
-        timer = setTimeout(function () { copy.textContent = t("contact.copy"); }, 1600);
-      }
-      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(email).then(done, function () {});
+    var list = $("#contactList");
+    var items = (D.contacts || []).slice();
+    if ((D.email || "").trim()) items.push({ label: "Email", value: D.email.trim(), url: "mailto:" + D.email.trim() });
+    items.forEach(function (c) {
+      var li = el("li");
+      var a = el("a");
+      a.href = c.url;
+      if (/^https?:/.test(c.url)) { a.target = "_blank"; a.rel = "noopener"; }
+      a.appendChild(el("span", "c-label", c.label));
+      a.appendChild(el("span", "c-value", c.value));
+      a.appendChild(el("span", "c-arrow", "→"));
+      li.appendChild(a);
+      list.appendChild(li);
     });
   }
 

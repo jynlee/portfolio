@@ -4,26 +4,24 @@ window.I18N.ja = {
     title: "イ・ジュヨン | AI・バックエンド開発者",
     desc: "RAGチャットボットとデータパイプラインを開発するイ・ジュヨンのポートフォリオです。"
   },
-  nav: { about: "紹介", skills: "スキル", projects: "プロジェクト", journey: "歩み", contact: "連絡", cta: "メールを送る" },
-  ui: { theme: "テーマ切替", lang: "言語を選択", menu: "メニューを開く", skip: "本文へスキップ", scroll: "scroll", zoom: "拡大表示", close: "閉じる" },
+  nav: { about: "紹介", skills: "スキル", projects: "プロジェクト", journey: "Timeline", contact: "連絡", cta: "メールを送る" },
+  ui: { theme: "テーマ切替", lang: "言語を選択", menu: "メニューを開く", skip: "本文へスキップ", scroll: "scroll", top: "トップへ戻る", zoom: "拡大表示", close: "閉じる" },
   hero: {
-    eyebrow: "RAG · LLM · データパイプライン",
+    eyebrow: "RAG · LLM · 生成AI",
     name: "イ・ジュヨン",
     role: "AI・バックエンド開発者",
-    tagline: "3Dグラフィックスからデータと LLM へ。データ収集、埋め込み、検索、回答生成まで、RAGパイプライン全体を自分で設計・実装します。",
+    tagline: "データ収集から検索、回答生成まで、RAGチャットボットの全工程を自分で実装します。",
     cta1: "プロジェクトを見る",
     cta2: "連絡する"
   },
   about: {
     label: "私について",
     title: "技術を理解し、\n活かす開発者",
-    p1: "大学卒業後の3年間、Unreal Engine、ZBrush、3ds Maxを学び、ゲーム業界の3Dグラフィックデザイナーを目指していました。しかしAIが制作の進め方を急速に変えていくのを見て、方向を変え、開発者として一から始めることにしました。",
-    p2: "AIフィンテック融合科（旧スマートファイナンス科）でPythonとSQLによるデータ処理とETLを学び、チームプロジェクトでエステ向け法律相談RAGチャットボットを開発しました。法令データの収集、ハイブリッド検索、回答生成まで一連の流れを担当しました。",
-    p3: "ひとつの方法が行き詰まっても、別の道を探して試し続ける粘り強さが強みです。考え込みやすい性格なので、考えるだけで止まらず、まず動く習慣を身につけています。",
+    p2: "RAG（文書を検索し、根拠を示して答えるAI）チャットボットをチームで完成させ、法令データの収集から検索、回答生成までを担当しました。",
+    p3: "行き詰まったら別の道を探して試し続け、考え込むより先に動く習慣を身につけています。",
     facts: {
       focus: { l: "関心分野", v: "LLM · RAG · 生成AI" },
-      edu: { l: "在学中", v: "AIフィンテック融合科（旧スマートファイナンス科）· 2026.03〜" },
-      lang: { l: "英語", v: "OPIC IM2" }
+      edu: { l: "在学中", v: "AIフィンテック融合科（旧スマートファイナンス科）· 2026.03〜" }
     },
     stats: { projects: "プロジェクト", repos: "GitHubリポジトリ", areas: "技術分野" }
   },
@@ -36,9 +34,7 @@ window.I18N.ja = {
         points: [
           "OllamaでローカルLLM（Gemma3/Gemma4）の提供環境を構築・運用",
           "BGE-M3、ko-sroberta埋め込みによるBM25+kNNハイブリッド検索を実装",
-          "収集→埋め込み→インデックス→検索→回答生成のRAGパイプラインを設計・実装",
-          "LoRAによるマルチモーダルLLMのファインチューニング、GGUF変換とサービング",
-          "構造化した回答フォーマットの設計とパース処理の実装"
+          "収集→埋め込み→インデックス→検索→回答生成のRAGパイプラインを設計・実装"
         ]
       },
       python: {
@@ -70,8 +66,7 @@ window.I18N.ja = {
         points: [
           "Linux（Ubuntu、WSL2）環境の構築とサーバー運用",
           "systemd timerによるバッチ・自動化",
-          "DockerとKafka環境の構築",
-          "Git/GitHubでの協業、Tailscale/SSHによるチームの遠隔開発"
+          "DockerとKafka環境の構築"
         ]
       },
       front: {
@@ -98,61 +93,56 @@ window.I18N.ja = {
         points: [
           "法制処の法令データと食品医薬品安全処APIの収集パイプラインを構築",
           "BM25+kNNハイブリッド検索と、質問タイプ別の動的topKロジックを実装",
-          "[要約]/[ポイント]/[一覧]の構造化回答フォーマットを設計、UTF-8表示エラーを修正",
-          "systemd timerによる法令データ自動更新バッチを構成",
-          "Spring Legacy MVCフロントエンドのUI/UXデザインと画面開発"
+          "[要約]/[ポイント]/[一覧]の構造化回答フォーマットを設計、UTF-8表示エラーを修正"
         ]
       },
       etl: {
         title: "WTI・為替ETLダッシュボード",
         tag: "データパイプライン",
-        summary: "原油はドル建てのため、為替と原油価格が同時に上がるとエネルギーコストの負担が大きくなります。2つの指標を一緒に収集して相関を見られるようにしたパイプラインです。",
+        summary: "為替と原油価格を一緒に収集し、ウォン建てのエネルギーコストの推移を示すダッシュボードです。",
         points: [
           "韓国銀行ECOS（USD/KRW）とFRED（WTI）APIからデータを収集",
           "MAX(trade_date)を基準にした増分ロード、INSERT IGNOREで重複を防止",
-          "FastAPI + Jinja2 + Chart.jsによる可視化ダッシュボード",
-          "平日14:00（KST）にcrontabで自動実行"
+          "FastAPI + Jinja2 + Chart.jsによる可視化ダッシュボード"
         ]
       },
       seoul: {
         title: "Seoul My Soul — ソウル観光案内AIチャットボット",
         tag: "RAGチャットボット",
-        summary: "キーワード検索の限界を超え、ソウルの観光情報を自然な会話でまとめて案内するLLM・RAGチャットボットです。会話履歴を反映し、「その近く」のような文脈の質問にも対応します。",
+        summary: "ソウル観光を会話で案内するRAGチャットボット。「その近く」のような文脈の質問にも対応します。",
         points: [
           "質問を768次元ベクトル（ko-sroberta-multitask）に変換し、OpenSearch KNNで類似観光地の上位5件を検索",
           "ソウル25区の文字列マッチングでフィルタリングし、質問にない場合は会話履歴を逆順に探索",
-          "セッションごとに直近100件の会話を保持し、30日経過したデータは毎日午前3時に自動削除",
-          "Spring Boot + JSPの画面、FastAPIのAIエンジン、Gemma3:4b（Ollama）による2文以内の回答生成",
-          "履歴照会 → ベクトル変換 → KNN検索 → 回答生成 → 保存・表示のRAGパイプラインを設計・実装"
+          "セッションごとに直近100件の会話を保持し、30日経過したデータは毎日午前3時に自動削除"
         ]
       },
       grade: {
         title: "学生成績管理システム",
         tag: "Webアプリケーション",
-        summary: "学生情報と科目別の点数を登録し、平均と等級を自動計算して照会する3層構造のWebシステムです。",
+        summary: "学生の点数から平均と等級を自動計算する3層構造のWebシステムです。",
         points: [
           "Servlet → Service → DAO → JDBCの各層を自分で実装（Java 17、Servlet 4.0、Tomcat 9、Mavenマルチステージビルド）",
           "Docker Compose 1つでnginx・Tomcat・MySQLの3層構成をまとめて起動し、ボリュームでDBデータを保持",
-          "nginxリバースプロキシ（/api → backend:8080）で、CORS設定なしにフロントとバックエンドを接続",
-          "init.sqlの二重エンコードとJDBC collationの不一致を原因分析して修正し、韓国語の文字化け問題を解決",
-          "登録 → 点数入力 → 平均・等級の自動計算 → 照会までの4画面（HTML/CSS/JS）を連携"
+          "nginxリバースプロキシ（/api → backend:8080）で、CORS設定なしにフロントとバックエンドを接続"
         ]
       }
     }
   },
   journey: {
     label: "歩み",
-    title: "歩み",
+    title: "Timeline",
     items: {
+      pipeline: { date: "2026 上半期", title: "データパイプラインとモデル実習", desc: "WTI・為替ETLダッシュボード（ECOS、FRED、増分ロード）、株式データパイプラインのチームプロジェクト（KIS APIマスターファイル解析、MySQL連携）、gemma-3-4b-itのLoRAファインチューニングとGGUF変換、HuggingFaceへのアップロードを行いました。" },
+      apps: { date: "2026 上半期", title: "Seoul My Soul と学生成績管理システム", desc: "Spring Boot、FastAPI、OpenSearchでソウル観光RAGチャットボットを、Servlet、JDBC、Docker Composeで3層構造の成績管理Webシステムを開発しました。" },
       poly: { date: "2026.03 〜 現在", title: "AIフィンテック融合科（旧スマートファイナンス科）", desc: "PythonとSQLによるデータ処理とETLを学び、チームプロジェクトでRAGチャットボットを開発しました。" },
       selfstudy: { date: "2021 – 2024", title: "3Dグラフィックス", desc: "Unreal Engine、ZBrush、3ds Maxを学び、ゲーム業界の3Dグラフィックデザイナーを目指してポートフォリオを準備しました。" },
-      cafe: { date: "2020.04 – 2024.09", title: "カフェ運営（53か月）", desc: "Paik's Coffeeでカフェ運営全般を担当しました。" },
+      cafe: { date: "2020.04 – 2024.09", title: "カフェ運営（4年5か月）", desc: "Paik's Coffeeでカフェ運営全般を担当しました。" },
       design: { date: "2016 – 2021", title: "展示デザイン学科", desc: "展示デザインを専攻し、卒業しました。" }
     }
   },
   contact: {
     label: "お問い合わせ",
-    title: "一緒に作りましょう",
+    title: "良いサービスは、対話から始まります",
     lead: "新しいプロジェクト、協業のご提案、気軽なお話など、いつでもご連絡ください。",
     email: "メールを送る",
     copy: "メールをコピー",

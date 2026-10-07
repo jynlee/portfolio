@@ -1,8 +1,12 @@
 /* Language-neutral data (tech names, links, categories, ordering).
    All visible sentences live in js/i18n/*.js */
 window.PORTFOLIO_DATA = {
-  /* 공개할 이메일을 넣으면 이메일 버튼이 자동으로 나타납니다. 비워 두면 GitHub 버튼만 표시됩니다. */
-  email: "",
+  /* 공개할 연락처를 넣으면 연락 영역 목록에 자동으로 추가됩니다. 비워 두면 표시되지 않습니다. */
+  email: "luvpage11@gmail.com",
+  contacts: [
+    { label: "GitHub", value: "github.com/jynlee", url: "https://github.com/jynlee" }
+    /* { label: "Blog", value: "blog 주소", url: "https://..." }, */
+  ],
   stats: { repos: 7 },
   skills: [
     { id: "ai", tags: ["Ollama", "Gemma", "BGE-M3", "ko-sroberta", "LoRA", "GGUF"] },
@@ -45,5 +49,5 @@ window.PORTFOLIO_DATA = {
       links: [{ url: "https://github.com/jynlee/student_grade_system" }]
     }
   ],
-  journey: ["poly", "selfstudy", "cafe", "design"]
+  journey: ["pipeline", "apps", "poly", "selfstudy", "cafe", "design"]
 };
