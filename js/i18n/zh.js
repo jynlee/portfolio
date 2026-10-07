@@ -135,7 +135,7 @@ window.I18N.zh = {
       pipeline: { date: "2026 上半年", title: "数据管道与模型实践", desc: "完成WTI·汇率ETL仪表盘（ECOS、FRED、增量加载）、股票数据管道团队项目（KIS API主文件解析、MySQL对接），以及gemma-3-4b-it的LoRA微调、GGUF转换与HuggingFace上传。" },
       apps: { date: "2026 上半年", title: "Seoul My Soul 与学生成绩管理系统", desc: "基于Spring Boot、FastAPI、OpenSearch开发首尔旅游RAG聊天机器人，并用Servlet、JDBC、Docker Compose开发三层架构成绩管理Web系统。" },
       poly: { date: "2026.03 – 至今", title: "AI金融科技融合系（原智能金融系）", desc: "学习基于Python、SQL的数据处理与ETL，并通过团队项目开发了RAG聊天机器人。" },
-      selfstudy: { date: "2021 – 2024", title: "3D图形", desc: "学习虚幻引擎、ZBrush、3ds Max，准备游戏行业3D图形设计师作品集。" },
+      selfstudy: { date: "2021 – 2024", title: "3D图形", desc: "使用虚幻引擎、ZBrush和3ds Max掌握了游戏3D图形的制作流程，并完成了作品集作品。" },
       cafe: { date: "2020.04 – 2024.09", title: "咖啡店运营（4年5个月）", desc: "在Paik's Coffee负责咖啡店的整体运营。" },
       design: { date: "2016 – 2021", title: "展示设计系", desc: "展示设计专业毕业。" }
     }

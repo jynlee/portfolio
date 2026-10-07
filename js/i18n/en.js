@@ -135,7 +135,7 @@ window.I18N.en = {
       pipeline: { date: "2026 H1", title: "Data pipelines & model practice", desc: "WTI/exchange-rate ETL dashboard (ECOS, FRED, incremental loads), a stock data pipeline team project (KIS API master-file parsing, MySQL), LoRA fine-tuning of gemma-3-4b-it with GGUF conversion and a HuggingFace upload." },
       apps: { date: "2026 H1", title: "Seoul My Soul & Student Grade System", desc: "Built a Seoul travel RAG chatbot on Spring Boot, FastAPI and OpenSearch, and a 3-tier grade management web system with Servlet, JDBC and Docker Compose." },
       poly: { date: "2026.03 – Present", title: "AI·Fintech Convergence (formerly Smart Finance)", desc: "Learning data processing and ETL with Python and SQL, and built a RAG chatbot in a team project." },
-      selfstudy: { date: "2021 – 2024", title: "3D graphics", desc: "Studied Unreal Engine, ZBrush and 3ds Max while preparing a game-industry 3D graphics portfolio." },
+      selfstudy: { date: "2021 – 2024", title: "3D graphics", desc: "Learned the 3D graphics production process with Unreal Engine, ZBrush and 3ds Max, and built portfolio pieces for games." },
       cafe: { date: "2020.04 – 2024.09", title: "Cafe operations (4 years 5 months)", desc: "Ran day-to-day cafe operations at Paik's Coffee." },
       design: { date: "2016 – 2021", title: "Dept. of Exhibition Design", desc: "Graduated in exhibition design." }
     }

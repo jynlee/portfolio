@@ -135,7 +135,7 @@ window.I18N.ja = {
       pipeline: { date: "2026 上半期", title: "データパイプラインとモデル実習", desc: "WTI・為替ETLダッシュボード（ECOS、FRED、増分ロード）、株式データパイプラインのチームプロジェクト（KIS APIマスターファイル解析、MySQL連携）、gemma-3-4b-itのLoRAファインチューニングとGGUF変換、HuggingFaceへのアップロードを行いました。" },
       apps: { date: "2026 上半期", title: "Seoul My Soul と学生成績管理システム", desc: "Spring Boot、FastAPI、OpenSearchでソウル観光RAGチャットボットを、Servlet、JDBC、Docker Composeで3層構造の成績管理Webシステムを開発しました。" },
       poly: { date: "2026.03 〜 現在", title: "AIフィンテック融合科（旧スマートファイナンス科）", desc: "PythonとSQLによるデータ処理とETLを学び、チームプロジェクトでRAGチャットボットを開発しました。" },
-      selfstudy: { date: "2021 – 2024", title: "3Dグラフィックス", desc: "Unreal Engine、ZBrush、3ds Maxを学び、ゲーム業界の3Dグラフィックデザイナーを目指してポートフォリオを準備しました。" },
+      selfstudy: { date: "2021 – 2024", title: "3Dグラフィックス", desc: "アンリアルエンジン、ZBrush、3ds Maxでゲーム向け3Dグラフィックの制作工程を身につけ、ポートフォリオ作品を制作しました。" },
       cafe: { date: "2020.04 – 2024.09", title: "カフェ運営（4年5か月）", desc: "Paik's Coffeeでカフェ運営全般を担当しました。" },
       design: { date: "2016 – 2021", title: "展示デザイン学科", desc: "展示デザインを専攻し、卒業しました。" }
     }

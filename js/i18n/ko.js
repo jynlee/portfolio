@@ -135,7 +135,7 @@ window.I18N.ko = {
       pipeline: { date: "2026 상반기", title: "데이터 파이프라인 · 모델 실습", desc: "WTI·환율 ETL 대시보드(ECOS·FRED, 증분 적재), 주식 데이터 파이프라인 팀 프로젝트(KIS API 마스터 파일 파싱, MySQL 연동), gemma-3-4b-it LoRA 파인튜닝과 GGUF 변환, HuggingFace 업로드를 진행했습니다." },
       apps: { date: "2026 상반기", title: "Seoul My Soul · 학생 성적 관리 시스템", desc: "Spring Boot + FastAPI + OpenSearch 기반 서울 관광 RAG 챗봇과, Servlet · JDBC · Docker Compose 기반 3-tier 성적 관리 웹 시스템을 만들었습니다." },
       poly: { date: "2026.03 – 현재", title: "AI핀테크 융합과 (前 스마트금융과)", desc: "Python, SQL 기반 데이터 처리와 ETL을 배우고, 팀 프로젝트로 RAG 챗봇을 개발했습니다." },
-      selfstudy: { date: "2021 – 2024", title: "3D 그래픽", desc: "언리얼 엔진, ZBrush, 3ds Max를 공부하며 게임 업계 3D 그래픽 디자이너 포트폴리오를 준비했습니다." },
+      selfstudy: { date: "2021 – 2024", title: "3D 그래픽", desc: "언리얼 엔진, ZBrush, 3ds Max로 게임용 3D 그래픽 제작 과정을 익히고, 포트폴리오 작업물을 만들었습니다." },
       cafe: { date: "2020.04 – 2024.09", title: "카페 운영 (4년 5개월)", desc: "빽다방에서 카페 전반의 운영을 담당했습니다." },
       design: { date: "2016 – 2021", title: "전시 디자인과", desc: "전시 디자인을 전공하고 졸업했습니다." }
     }
