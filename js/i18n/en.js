@@ -17,8 +17,8 @@ window.I18N.en = {
   about: {
     label: "About Me",
     title: "Understanding technology,\nputting it to work",
-    p2: "I completed a RAG chatbot (an AI that searches documents and answers with sources) as a team project, covering legal data collection, search and answer generation end to end.",
-    p3: "When one approach is blocked I try another, and I'm building the habit of acting before overthinking.",
+    p2: "I build chatbots with generative AI such as LLMs and RAG (AI that searches documents and answers with sources). I have worked hands-on across the whole flow of a working service, from collecting legal data to search and answer generation.",
+    p3: "When one approach is blocked I try another, and I'm building the habit of acting right away. I'm now continuing with data pipelines and model practice in my AI Fintech program, aiming to be a developer who turns what I build into real services.",
     facts: {
       focus: { l: "Focus", v: "LLM · RAG · Generative AI" },
       edu: { l: "Studying", v: "AI·Fintech Convergence (formerly Smart Finance) · since 2026.03" }
