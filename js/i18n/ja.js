@@ -1,7 +1,7 @@
 window.I18N = window.I18N || {};
 window.I18N.ja = {
   meta: {
-    title: "イ・ジュヨン | AI・バックエンド開発者",
+    title: "イ・ジュヨン | フルスタック開発者",
     desc: "RAGチャットボットとデータパイプラインを開発するイ・ジュヨンのポートフォリオです。"
   },
   nav: { about: "紹介", skills: "スキル", projects: "プロジェクト", journey: "Timeline", contact: "連絡", cta: "メールを送る" },
@@ -9,7 +9,7 @@ window.I18N.ja = {
   hero: {
     eyebrow: "RAG · LLM · 生成AI",
     name: "イ・ジュヨン",
-    role: "AI・バックエンド開発者",
+    role: "フルスタック開発者",
     tagline: "データ収集から検索、回答生成まで、RAGチャットボットの全工程を自分で実装します。",
     cta1: "プロジェクトを見る",
     cta2: "連絡する"

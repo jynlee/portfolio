@@ -1,7 +1,7 @@
 window.I18N = window.I18N || {};
 window.I18N.ko = {
   meta: {
-    title: "이주연 | AI·백엔드 개발자",
+    title: "이주연 | 풀스택 개발자",
     desc: "RAG 챗봇과 데이터 파이프라인을 만드는 개발자 이주연의 포트폴리오입니다."
   },
   nav: { about: "소개", skills: "기술", projects: "프로젝트", journey: "타임라인", contact: "연락", cta: "이메일 보내기" },
@@ -9,7 +9,7 @@ window.I18N.ko = {
   hero: {
     eyebrow: "RAG · LLM · 생성형 AI",
     name: "이주연",
-    role: "AI · 백엔드 개발자",
+    role: "풀스택 개발자",
     tagline: "데이터 수집부터 검색, 답변 생성까지 RAG 챗봇의 전 과정을 직접 구현합니다.",
     cta1: "프로젝트 보기",
     cta2: "연락하기"
