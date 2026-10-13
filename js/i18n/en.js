@@ -1,7 +1,7 @@
 window.I18N = window.I18N || {};
 window.I18N.en = {
   meta: {
-    title: "Juyeon Lee | Full-Stack Developer",
+    title: "Juyeon Lee | AI & Full-Stack Developer",
     desc: "Portfolio of Juyeon Lee, a developer building RAG chatbots and data pipelines."
   },
   nav: { about: "About", skills: "Skills", projects: "Projects", journey: "Timeline", contact: "Contact", cta: "Send email" },
@@ -9,7 +9,7 @@ window.I18N.en = {
   hero: {
     eyebrow: "RAG · LLM · Generative AI",
     name: "Juyeon Lee",
-    role: "Full-Stack Developer",
+    role: "AI & Full-Stack Developer",
     tagline: "I build the whole RAG chatbot pipeline myself: data collection, search and answer generation.",
     cta1: "View projects",
     cta2: "Get in touch"
