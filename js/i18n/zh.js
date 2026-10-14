@@ -1,7 +1,7 @@
 window.I18N = window.I18N || {};
 window.I18N.zh = {
   meta: {
-    title: "李周姸 | AI·全栈开发者",
+    title: "李周姸 | AI·后端开发者",
     desc: "李周姸的作品集，专注于RAG聊天机器人与数据管道开发。"
   },
   nav: { about: "关于", skills: "技能", projects: "项目", journey: "Timeline", contact: "联系", cta: "发送邮件" },
@@ -9,7 +9,7 @@ window.I18N.zh = {
   hero: {
     eyebrow: "RAG · LLM · 生成式AI",
     name: "李周姸",
-    role: "AI·全栈开发者",
+    role: "AI·后端开发者",
     tagline: "从数据采集、检索到回答生成，亲自实现RAG聊天机器人的完整流程。",
     cta1: "查看项目",
     cta2: "联系我"
